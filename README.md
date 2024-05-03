@@ -3,7 +3,7 @@
 
 ## Aspiring Front End Developer | HTML | CSS | JavaScript
 
-🌐 [GitHub](https://github.com/Manikant2002) | ✉️ [Email](mailto:anantmani2002@gmail.com) | 🏠 [Portfolio](https://manikant2002.github.io/Simplotel/)
+🌐 [GitHub](https://github.com/Manikant2002) | ✉️ [Email](mailto:anantmani2002@gmail.com) | 🏠 [Hosted Site Link](https://manikant2002.github.io/Simplotel/)
 
 ---
 
