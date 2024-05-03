@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: nowrap;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 5%; /* Adjust the spacing between the icon and the text */
+}
+
+
+.logo-text {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1vh;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons a {
+    margin-left: 1vh;
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+}
+.social-icons a i {
+    font-size: 2 vh;
+}
+
+.main {
+    background-image: url('heroimg.jpg');
+    background-size: cover;
+    background-position: bottom left;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 2 vh;
+    color: white;
+    width: 100 vh;
+}
+
+.main1 > div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    display: flex;
+    margin-top: 0px;
+    width: 100 vh;
+}
+
+main > div > div {
+    margin-top: 1%;
+}
+
+.main2 {
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(210, 208, 205);
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .main {
+        padding: 1vh;
+    }
+    .main1 > div {
+        padding: 2%;
+    }
+    .social-icons a {
+        margin-left: 0.5vh;
+    }
+    .main2 {
+        text-align: left; 
+    }
+}
+
+@media (max-width: 543px) {
+    nav ul {
+        display: none; /* Hide the navigation links */
+    }
+    .container {
+        flex-direction: column; /* Arrange items in a column */
+    }
+    .social-icons a:first-child {
+        display: none; /* Hide the first social icon */
+    }
+    .social-icons a:last-child {
+        display: none; /* Hide the last social icon */
+    }
+}
